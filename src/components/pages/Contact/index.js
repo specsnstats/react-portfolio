@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
     return (
         <>
-            <h1>Contact Me</h1>
+            <h1>Contact Me!</h1>
             <div class="d-flex flex-row justify-content-between col-8 align-items-center">
                 <p>801-834-5796</p>
                 <p> <a href="mailto:specsnstats@gmail.com" target="_blank">specsnstats@gmail.com</a></p>
