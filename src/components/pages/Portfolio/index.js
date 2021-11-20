@@ -1,11 +1,15 @@
 import React from "react";
+import acnh from "./acnh.jpg";
+import manatee from "./rainbow-manatee.png";
+import weather from "./weather.png";
+import scheduler from "./scheduler.jpg";
 
 function Portfolio() {
     return (
-        <div className=" d-flex mx-4 my-2 justify-content-between flex-wrap col-8">
+        <div className=" d-flex mx-4 my-2 flex-wrap">
 
-            <div className="card mx-3 my-2" style="width: 18rem;">
-                <img src="./assets/images/acnh.jpg" className="card-img-top" alt="Animal Crossing backdrop" />
+            <div className="card mx-2 my-2" style={{width: "18rem"}}>
+                <img src={acnh} className="card-img-top" alt="Animal Crossing backdrop" />
                 <div className="card-body">
                     <h5 className="card-title">AC: NH Island Manager</h5>
                     <p className="card-text">A simple tracking site that allows you to manage what collectibles you have and
@@ -15,8 +19,8 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="card mx-3 my-2" style="width: 18rem;">
-                <img src="./assets/images/rainbow-manatee.png" className="card-img-top" alt="Animal Crossing backdrop" />
+            <div className="card mx-2 my-2"  style={{width: "18rem"}}>
+                <img src={manatee} className="card-img-top" alt="Animal Crossing backdrop" />
                 <div className="card-body">
                     <h5 className="card-title">Manatee Cookie-Clicker</h5>
                     <p className="card-text">A fun little cookie clicker dedicated to my coding teachers favorite animal:
@@ -25,9 +29,9 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="card mx-3 my-2" style="width: 18rem;">
+            <div className="card mx-2 my-2"  style={{width: "18rem"}}>
                 <a href="https://specsnstats.github.io/weather-dashboard/">
-                    <img src="./assets/images/weather.png" className="card-img-top" alt="Animal Crossing backdrop" /></a>
+                    <img src={weather} className="card-img-top" alt="Animal Crossing backdrop" /></a>
                 <div className="card-body">
                     <h5 className="card-title">Weather Tracker</h5>
                     <p className="card-text">Weather Dashboard made to simply track the weather across virtually every major
@@ -36,8 +40,8 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="card mx-3 my-2" style="width: 18rem;">
-                <img src="./assets/images/scheduler.jpg" className="card-img-top" alt="Animal Crossing backdrop" />
+            <div className="card mx-2 my-2"  style={{width: "18rem"}}>
+                <img src={scheduler} className="card-img-top" alt="Animal Crossing backdrop" />
                 <div className="card-body">
                     <h5 className="card-title">Work Day Scheduler</h5>
                     <p className="card-text">Simple site to plan your 9-to-5 to increase efficiency and get more done.</p>
