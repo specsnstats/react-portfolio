@@ -1,0 +1,10 @@
+#header{
+    background-image: url("./jumbo-background.png");
+    background-size: 100%;
+    background-position-y:50%;
+}
+
+
+body{
+    color: #EDC2FF;
+}
