@@ -1,0 +1,51 @@
+import React from "react";
+
+function Portfolio() {
+    return (
+        <div className=" d-flex mx-4 my-2 justify-content-between flex-wrap col-8">
+
+            <div className="card mx-3 my-2" style="width: 18rem;">
+                <img src="./assets/images/acnh.jpg" className="card-img-top" alt="Animal Crossing backdrop" />
+                <div className="card-body">
+                    <h5 className="card-title">AC: NH Island Manager</h5>
+                    <p className="card-text">A simple tracking site that allows you to manage what collectibles you have and
+                        have not obtained in Animal Crossing: New Horizons for the Nintendo Switch</p>
+                    <a href="https://specsnstats.github.io/project1-animal-crossing" className="btn btn-primary">GitHub
+                        Repo</a>
+                </div>
+            </div>
+
+            <div className="card mx-3 my-2" style="width: 18rem;">
+                <img src="./assets/images/rainbow-manatee.png" className="card-img-top" alt="Animal Crossing backdrop" />
+                <div className="card-body">
+                    <h5 className="card-title">Manatee Cookie-Clicker</h5>
+                    <p className="card-text">A fun little cookie clicker dedicated to my coding teachers favorite animal:
+                        The Manatee</p>
+                    <a href="https://github.com/POlsen-92/Manatee-Clicker" className="btn btn-primary">GitHub Repo</a>
+                </div>
+            </div>
+
+            <div className="card mx-3 my-2" style="width: 18rem;">
+                <a href="https://specsnstats.github.io/weather-dashboard/">
+                    <img src="./assets/images/weather.png" className="card-img-top" alt="Animal Crossing backdrop" /></a>
+                <div className="card-body">
+                    <h5 className="card-title">Weather Tracker</h5>
+                    <p className="card-text">Weather Dashboard made to simply track the weather across virtually every major
+                        city in the world.</p>
+                    <a href="https://specsnstats.github.io/weather-dashboard/" className="btn btn-primary">GitHub Repo</a>
+                </div>
+            </div>
+
+            <div className="card mx-3 my-2" style="width: 18rem;">
+                <img src="./assets/images/scheduler.jpg" className="card-img-top" alt="Animal Crossing backdrop" />
+                <div className="card-body">
+                    <h5 className="card-title">Work Day Scheduler</h5>
+                    <p className="card-text">Simple site to plan your 9-to-5 to increase efficiency and get more done.</p>
+                    <a href="https://specsnstats.github.io/work-day-scheduler" className="btn btn-primary">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Portfolio;
